@@ -15,7 +15,7 @@ from msrest.authentication import CognitiveServicesCredentials
 
 class Predict:
 
-    SUBSCRIPTION_KEY = ""
+    SUBSCRIPTION_KEY = "d48cd6f2811c4605a71e222105fe7c7c"
     ENDPOINT_URL = "https://asure-ocr-checkmate.cognitiveservices.azure.com/"
     computervision_client = ComputerVisionClient(ENDPOINT_URL, CognitiveServicesCredentials(SUBSCRIPTION_KEY))
 
